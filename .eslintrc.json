@@ -9,8 +9,6 @@
         "standard-with-typescript",
         "plugin:react/jsx-runtime"
     ],
-    "overrides": [
-    ],
     "parser": "@typescript-eslint/parser",
 
     "parserOptions": {
@@ -24,4 +22,5 @@
     ],
     "rules": {
     }
+    
 }
