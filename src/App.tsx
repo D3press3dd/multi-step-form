@@ -1,6 +1,8 @@
 function App (): JSX.Element {
   return (
-   <h1>hola</h1>
+    <>
+      <h1>hola</h1>
+    </>
   )
 }
 
