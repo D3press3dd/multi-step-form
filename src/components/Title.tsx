@@ -6,7 +6,10 @@ interface TitleProps {
 const TitleStyled = styled.h1`
     color: var(--dark-blue);
     font-family: Ubuntu;
-    font-size: 700;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 3.4rem;
+    
 `
 
 export function Title ({ children }: TitleProps): JSX.Element {

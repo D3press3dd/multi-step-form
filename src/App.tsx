@@ -1,8 +1,11 @@
+import { FullCard } from '@/components/FullCard'
+import { MainContainer } from '@/components/MainContainer'
+
 function App (): JSX.Element {
   return (
-    <>
-      <h1>hola</h1>
-    </>
+    <MainContainer>
+      <FullCard/>
+    </MainContainer>
   )
 }
 
