@@ -7,7 +7,6 @@ interface StepLeftSideProps {
 
 const LeftSide = styled.aside`
   min-height: 568px;
-  width: 274px;
   background-color: var(--dark-blue);
   border-radius: 1rem;
   background-image: url(${leftBgDesktop});
